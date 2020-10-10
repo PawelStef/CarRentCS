@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace CarRental.Models
 {
-    class Class1
+    public class Reservation
     {
+
+        public DateTime StarData { get; set; }
+        public DateTime EndData { get; set; }
     }
 }

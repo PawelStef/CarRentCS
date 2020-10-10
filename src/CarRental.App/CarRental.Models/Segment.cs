@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CarRental.Models
 {
-    class Class1
+    public enum Segment
     {
+        Unknown,
+        Faminy,
+        Sport,
+        Premium
     }
 }
